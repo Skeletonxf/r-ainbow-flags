@@ -1,8 +1,12 @@
 LGBT-Themed Flair for Reddit communities
 ========================================
 
-This project contains 15 flags and the CSS necessary to implement them 
-as flair for a subreddit, as we have done over at [/r/ainbow](http://www.reddit.com/r/ainbow/).
+**This fork replaces the split flags over at [/r/ainbow](http://www.reddit.com/r/ainbow/) 
+for flags side by side in the user's flair, saving on the number of images 
+counting towards reddit's cap and making it easier to add new flags into the project.
+Thus this fork only contains 8 images of flags, but still supports many 
+combinations by placing each flag image in the user's flair together**
+
 
 Instructions
 ------------
@@ -32,12 +36,13 @@ CSS Class Names
 ---------------
 
 These are the CSS classes you will add to the flair template page. For 
-reference, this is /r/ainbow's order as of March 2012: 
+reference, this is /r/demisexuality's order as of June 2016: 
 
  * ainbow
  * trans
  * bi
  * ace
+ * demi
  * genderqueer
  * pan
  * ally
@@ -46,22 +51,22 @@ reference, this is /r/ainbow's order as of March 2012:
  * trans-pan
  * trans-bi
  * trans-ace
+ * trans-demi
  * genderqueer-ainbow
  * genderqueer-pan
  * genderqueer-bi
  * genderqueer-ace
+ * genderqueer-demi
 
 Notes
 -----
 
 The CSS class names are invisible to the end user. 
 
-Position 8 in the template list used to be the 'none' class, which removed 
+Position 9 in the template list used to be the 'none' class, which removed 
 the flag. Now that reddit has a 'Remove Flair' option, we've repurposed 
 this positon for the 'noflag' class, which allows for freeform text in the 
-standard style of reddit flair. Position 8 is ideal for this, as column 1 
-contains seven flags and column two contains eight; the noflag template 
-nicely fills out column one. 
+standard style of reddit flair.
 
 The original implementation supported custom text as hover text rather 
 than static text. We later decided that showing text alongside the flag at 
@@ -82,11 +87,13 @@ hover text style, replace the span.flair rule with the following:
 	   padding-right: 3px;
 	}
 
-Acknowledgments
+Original Acknowledgments
 ---------------
 
 Custom text was initially implemented by reddit user kkress, and the 
 blended flags were conceived and designed by WTFcannuck. RES NightMode
 optimizations were added by nekosune. Thanks so much to you all! 
 
-If you have any questions or issues, message joeycastillo on reddit. 
+If you have any questions or issues about the origional version of this fork, 
+message joeycastillo on reddit. For questions or issues about this forked 
+version message skeletonxf on reddit.
