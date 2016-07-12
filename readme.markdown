@@ -36,27 +36,40 @@ CSS Class Names
 ---------------
 
 These are the CSS classes you will add to the flair template page. For 
-reference, this is /r/demisexuality's order as of June 2016: 
+reference, this is /r/demisexuality's order as of July 2016: 
 
  * ainbow
- * trans
+ * pan
  * bi
+ * het
  * ace
  * demi
  * genderqueer
- * pan
+ * trans
  * ally
  * noflag
+ * demi-ainbow
+ * demi-pan
+ * demi-bi
+ * demi-het
  * trans-ainbow
  * trans-pan
  * trans-bi
  * trans-ace
  * trans-demi
+ * trans-demi-ainbow
+ * trans-demi-pan
+ * trans-demi-bi
+ * trans-demi-het
  * genderqueer-ainbow
  * genderqueer-pan
  * genderqueer-bi
  * genderqueer-ace
  * genderqueer-demi
+ * genderqueer-demi-ainbow
+ * genderqueer-demi-pan
+ * genderqueer-demi-bi
+ * genderqueer-demi-het
 
 Notes
 -----
