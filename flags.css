@@ -5,7 +5,8 @@
  */
 span.flair-ainbow, 
 span.flair-trans, 
-span.flair-bi, 
+span.flair-bi,
+span.flair-het,
 span.flair-ace,
 span.flair-demi,
 span.flair-ally, 
@@ -14,13 +15,27 @@ span.flair-genderqueer,
 span.flair-trans-ainbow, 
 span.flair-trans-pan, 
 span.flair-trans-bi, 
+span.flair-trans-het,
 span.flair-trans-ace, 
 span.flair-trans-demi,
 span.flair-genderqueer-ainbow, 
 span.flair-genderqueer-pan, 
-span.flair-genderqueer-bi, 
+span.flair-genderqueer-bi,
+span.flair-genderqueer-het,
 span.flair-genderqueer-ace,
-span.flair-genderqueer-demi
+span.flair-genderqueer-demi,
+span.flair-demi-ainbow,
+span.flair-demi-bi,
+span.flair-demi-het,
+span.flair-demi-pan,
+span.flair-trans-demi-ainbow,
+span.flair-trans-demi-bi,
+span.flair-trans-demi-het,
+span.flair-trans-demi-pan,
+span.flair-genderqueer-demi-ainbow,
+span.flair-genderqueer-demi-bi,
+span.flair-genderqueer-demi-het,
+span.flair-genderqueer-demi-pan
 {
 	visibility: visible;
 	width: 18px;
@@ -44,14 +59,20 @@ span.flair
 
 span.flair-trans-ainbow, 
 span.flair-trans-pan, 
-span.flair-trans-bi, 
+span.flair-trans-bi,
+span.flair-trans-het,
 span.flair-trans-ace,
 span.flair-trans-demi,
 span.flair-genderqueer-ainbow, 
 span.flair-genderqueer-pan, 
 span.flair-genderqueer-bi, 
+span.flair-genderqueer-het,
 span.flair-genderqueer-ace,
-span.flair-genderqueer-demi
+span.flair-genderqueer-demi,
+span.flair-demi-ainbow,
+span.flair-demi-bi,
+span.flair-demi-het,
+span.flair-demi-pan
 {
     text-indent: 44px;
     min-width: 40px;
@@ -60,9 +81,26 @@ span.flair-genderqueer-demi
     background-color: #ddd; 
 }
 
+/* triple flags */
+span.flair-trans-demi-ainbow,
+span.flair-trans-demi-bi,
+span.flair-trans-demi-het,
+span.flair-trans-demi-pan,
+span.flair-genderqueer-demi-ainbow,
+span.flair-genderqueer-demi-bi,
+span.flair-genderqueer-demi-het,
+span.flair-genderqueer-demi-pan
+{
+    text-indent: 68px;
+    min-width: 62px;
+    background-position: 0 0, 22px 0, 44px, 0; 
+    background-repeat: no-repeat; 
+    background-color: #ddd; 
+}
+
 /* add spacing to other side of text when text is present in flair */
 span.flair:not(:empty) {
-    padding-right: 3px; 
+    padding-right: 4px; 
 }
 
 /* 2012-11-22: RES Nightmode css */
@@ -80,18 +118,41 @@ span.flair:not(:empty) {
 
 .res-nightmode span.flair-trans-ainbow, 
 .res-nightmode span.flair-trans-pan, 
-.res-nightmode span.flair-trans-bi, 
+.res-nightmode span.flair-trans-bi,
+.res-nightmode span.flair-trans-het,
 .res-nightmode span.flair-trans-ace, 
-.res-nightmode span.flair-trans-demi, 
-.res-nightmode span.flair-genderqueer-ainbow, 
-.res-nightmode span.flair-genderqueer-pan, 
-.res-nightmode span.flair-genderqueer-bi, 
+.res-nightmode span.flair-trans-demi,
+.res-nightmode span.flair-genderqueer-ainbow,
+.res-nightmode span.flair-genderqueer-pan,
+.res-nightmode span.flair-genderqueer-bi,
+.res-nightmode span.flair-genderqueer-het,
 .res-nightmode span.flair-genderqueer-ace,
-.res-nightmode span.flair-genderqueer-demi
+.res-nightmode span.flair-genderqueer-demi,
+.res-nightmode span.flair-demi-ainbow,
+.res-nightmode span.flair-demi-bi,
+.res-nightmode span.flair-demi-het,
+.res-nightmode span.flair-demi-pan
 {
     text-indent: 44px;
     min-width: 40px;
     background-position: 0 0, 22px 0; 
+    background-repeat: no-repeat; 
+    background-color: #777; 
+}
+
+/* triple flags */
+.res-nightmode span.flair-trans-demi-ainbow,
+.res-nightmode span.flair-trans-demi-bi,
+.res-nightmode span.flair-trans-demi-het,
+.res-nightmode span.flair-trans-demi-pan,
+.res-nightmode span.flair-genderqueer-demi-ainbow,
+.res-nightmode span.flair-genderqueer-demi-bi,
+.res-nightmode span.flair-genderqueer-demi-het,
+.res-nightmode span.flair-genderqueer-demi-pan
+{
+    text-indent: 68px;
+    min-width: 62px;
+    background-position: 0 0, 22px 0, 44px, 0; 
     background-repeat: no-repeat; 
     background-color: #777; 
 }
@@ -121,6 +182,7 @@ a[href="/ally"]:after,
 a[href="/ainbow"]:after, 
 a[href="/trans"]:after, 
 a[href="/bi"]:after, 
+a[href="/het"]:after,
 a[href="/ace"]:after, 
 a[href="/demi"]:after, 
 a[href="/pan"]:after, 
@@ -151,6 +213,7 @@ a[href="/genderqueer"]:after
 span.flair-ally { background:#DDD url(%%ally%%) no-repeat left top !important; }
 span.flair-ainbow { background:#DDD url(%%ainbow%%) no-repeat left top !important;}
 span.flair-bi { background:#DDD url(%%bi%%) no-repeat left top !important; }
+span.flair-het { background:#DDD url(%%het%%) no-repeat left top !important; }
 span.flair-ace { background:#DDD url(%%ace%%) no-repeat left top !important; }
 span.flair-demi { background:#DDD url(%%demi%%) no-repeat left top !important; }
 span.flair-trans { background:#DDD url(%%trans%%) no-repeat left top !important; }
@@ -161,21 +224,37 @@ span.flair-genderqueer { background:#DDD url(%%gq%%) no-repeat left top !importa
 span.flair-trans-ainbow { background-image: url(%%trans%%), url(%%ainbow%%); }
 span.flair-trans-pan { background-image: url(%%trans%%), url(%%pan%%); }
 span.flair-trans-bi { background-image: url(%%trans%%), url(%%bi%%); }
+span.flair-trans-het { background-image: url(%%trans%%), url(%%het%%); }
 span.flair-trans-ace { background-image: url(%%trans%%), url(%%ace%%); }
 span.flair-trans-demi { background-image: url(%%trans%%), url(%%demi%%); }
 span.flair-genderqueer-ainbow { background-image: url(%%gq%%), url(%%ainbow%%); }
 span.flair-genderqueer-pan { background-image: url(%%gq%%), url(%%pan%%); }
 span.flair-genderqueer-bi { background-image: url(%%gq%%), url(%%bi%%); }
+span.flair-genderqueer-het { background-image: url(%%gq%%), url(%%het%%); }
 span.flair-genderqueer-ace { background-image: url(%%gq%%), url(%%ace%%); }
 span.flair-genderqueer-demi { background-image: url(%%gq%%), url(%%demi%%); }
+span.flair-demi-ainbow { background-image: url(%%demi%%), url(%%ainbow%%); }
+span.flair-demi-bi { background-image: url(%%demi%%), url(%%bi%%); }
+span.flair-demi-het { background-image: url(%%demi%%), url(%%het%%); }
+span.flair-demi-pan { background-image: url(%%demi%%), url(%%pan%%); }
 /* End dual flag flair images */
-
+/* Begin triple flag flair images */
+span.flair-trans-demi-ainbow { background-image: url(%%trans%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-trans-demi-bi { background-image: url(%%trans%%), url(%%demi%%), url(%%bi%%); }
+span.flair-trans-demi-het { background-image: url(%%trans%%), url(%%demi%%), url(%%het%%); }
+span.flair-trans-demi-pan { background-image: url(%%trans%%), url(%%demi%%), url(%%pan%%); }
+span.flair-genderqueer-demi-ainbow { background-image: url(%%gq%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-genderqueer-demi-bi { background-image: url(%%gq%%), url(%%demi%%), url(%%bi%%); }
+span.flair-genderqueer-demi-het { background-image: url(%%gq%%), url(%%demi%%), url(%%het%%); }
+span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), url(%%pan%%); }
+/* End triple flag flair images */
 
 /* RES nightMode Flair, darker background with white text*/
 /* Begin single flag flair images */
 .res-nightmode  span.flair-ally { background:#777 url(%%ally%%) no-repeat left top !important; }
 .res-nightmode  span.flair-ainbow { background:#777 url(%%ainbow%%) no-repeat left top !important;}
 .res-nightmode  span.flair-bi { background:#777 url(%%bi%%) no-repeat left top !important; }
+.res-nightmode  span.flair-het { background:#777 url(%%het%%) no-repeat left top !important; }
 .res-nightmode  span.flair-ace { background:#777 url(%%ace%%) no-repeat left top !important; }
 .res-nightmode  span.flair-demi { background:#777 url(%%demi%%) no-repeat left top !important; }
 .res-nightmode  span.flair-trans { background:#777 url(%%trans%%) no-repeat left top !important; }
@@ -186,16 +265,31 @@ span.flair-genderqueer-demi { background-image: url(%%gq%%), url(%%demi%%); }
 .res-nightmode  span.flair-trans-ainbow { background-image: url(%%trans%%), url(%%ainbow%%); }
 .res-nightmode  span.flair-trans-pan { background-image: url(%%trans%%), url(%%pan%%); }
 .res-nightmode  span.flair-trans-bi { background-image: url(%%trans%%), url(%%bi%%); }
+.res-nightmode  span.flair-trans-het { background-image: url(%%trans%%), url(%%het%%); }
 .res-nightmode  span.flair-trans-ace { background-image: url(%%trans%%), url(%%ace%%); }
 .res-nightmode  span.flair-trans-demi { background-image: url(%%trans%%), url(%%demi%%); }
 .res-nightmode  span.flair-genderqueer-ainbow { background-image: url(%%gq%%), url(%%ainbow%%); }
 .res-nightmode  span.flair-genderqueer-pan { background-image: url(%%gq%%), url(%%pan%%); }
 .res-nightmode  span.flair-genderqueer-bi { background-image: url(%%gq%%), url(%%bi%%); }
+.res-nightmode  span.flair-genderqueer-het { background-image: url(%%gq%%), url(%%het%%); }
 .res-nightmode  span.flair-genderqueer-ace { background-image: url(%%gq%%), url(%%ace%%); }
 .res-nightmode  span.flair-genderqueer-demi { background-image: url(%%gq%%), url(%%demi%%); }
+.res-nightmode  span.flair-demi-ainbow { background-image: url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-demi-bi { background-image: url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-demi-het { background-image: url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-demi-pan { background-image: url(%%demi%%), url(%%pan%%); }
 .res-nightmode  span.flair-noflag { background:#777 !important; }
 /* End dual flag flair images */
-
+/* Begin triple flag flair images */
+.res-nightmode  span.flair-trans-demi-ainbow { background-image: url(%%trans%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-trans-demi-bi { background-image: url(%%trans%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-trans-demi-het { background-image: url(%%trans%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-trans-demi-pan { background-image: url(%%trans%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-genderqueer-demi-ainbow { background-image: url(%%gq%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-genderqueer-demi-bi { background-image: url(%%gq%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-genderqueer-demi-het { background-image: url(%%gq%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), url(%%pan%%); }
+/* End triple flag flair images */
 
 /* DEPRECATED 2012-10-17: Reddit's 'Remove Flair' button handles
    removing one's flair, so we've removed this from the templates. 
@@ -212,9 +306,11 @@ a[href="/ally"]:after { background-image: url(%%ally%%); }
 a[href="/ainbow"]:after { background-image: url(%%ainbow%%); }
 a[href="/trans"]:after { background-image: url(%%trans%%); }
 a[href="/bi"]:after { background-image: url(%%bi%%); }
+a[href="/het"]:after { background-image: url(%%bi%%); }
 a[href="/ace"]:after { background-image: url(%%ace%%); }
 a[href="/demi"]:after { background-image: url(%%demi%%); }
 a[href="/pan"]:after { background-image: url(%%pan%%); }
 a[href="/genderqueer"]:after { background-image: url(%%gq%%); }
 /* End inline images */
 /*** End /r/ainbow flair CSS ***/
+
