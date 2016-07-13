@@ -55,6 +55,7 @@ reference, this is /r/demisexuality's order as of July 2016:
  * trans-ainbow
  * trans-pan
  * trans-bi
+ * trans-het
  * trans-ace
  * trans-demi
  * trans-demi-ainbow
@@ -64,6 +65,7 @@ reference, this is /r/demisexuality's order as of July 2016:
  * genderqueer-ainbow
  * genderqueer-pan
  * genderqueer-bi
+ * genderqueer-het
  * genderqueer-ace
  * genderqueer-demi
  * genderqueer-demi-ainbow
