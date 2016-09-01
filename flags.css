@@ -12,6 +12,13 @@ span.flair-demi,
 span.flair-ally, 
 span.flair-pan, 
 span.flair-genderqueer,
+span.flair-genderfluid,
+span.flair-nonbinary,
+span.flair-neutrois,
+span.flair-demiboy,
+span.flair-demigirl,
+span.flair-deminonbinary,
+span.flair-agender,
 span.flair-trans-ainbow, 
 span.flair-trans-pan, 
 span.flair-trans-bi, 
@@ -24,6 +31,48 @@ span.flair-genderqueer-bi,
 span.flair-genderqueer-het,
 span.flair-genderqueer-ace,
 span.flair-genderqueer-demi,
+span.flair-genderfluid-ainbow, 
+span.flair-genderfluid-pan, 
+span.flair-genderfluid-bi,
+span.flair-genderfluid-het,
+span.flair-genderfluid-ace,
+span.flair-genderfluid-demi,
+span.flair-nonbinary-ainbow, 
+span.flair-nonbinary-pan, 
+span.flair-nonbinary-bi,
+span.flair-nonbinary-het,
+span.flair-nonbinary-ace,
+span.flair-nonbinary-demi,
+span.flair-neutrois-ainbow, 
+span.flair-neutrois-pan, 
+span.flair-neutrois-bi,
+span.flair-neutrois-het,
+span.flair-neutrois-ace,
+span.flair-neutrois-demi,
+span.flair-demiboy-ainbow, 
+span.flair-demiboy-pan, 
+span.flair-demiboy-bi,
+span.flair-demiboy-het,
+span.flair-demiboy-ace,
+span.flair-demiboy-demi,
+span.flair-demigirl-ainbow, 
+span.flair-demigirl-pan, 
+span.flair-demigirl-bi,
+span.flair-demigirl-het,
+span.flair-demigirl-ace,
+span.flair-demigirl-demi,
+span.flair-deminonbinary-ainbow, 
+span.flair-deminonbinary-pan, 
+span.flair-deminonbinary-bi,
+span.flair-deminonbinary-het,
+span.flair-deminonbinary-ace,
+span.flair-deminonbinary-demi,
+span.flair-agender-ainbow, 
+span.flair-agender-pan, 
+span.flair-agender-bi,
+span.flair-agender-het,
+span.flair-agender-ace,
+span.flair-agender-demi,
 span.flair-demi-ainbow,
 span.flair-demi-bi,
 span.flair-demi-het,
@@ -35,7 +84,35 @@ span.flair-trans-demi-pan,
 span.flair-genderqueer-demi-ainbow,
 span.flair-genderqueer-demi-bi,
 span.flair-genderqueer-demi-het,
-span.flair-genderqueer-demi-pan
+span.flair-genderqueer-demi-pan,
+span.flair-genderfluid-demi-ainbow,
+span.flair-genderfluid-demi-bi,
+span.flair-genderfluid-demi-het,
+span.flair-genderfluid-demi-pan,
+span.flair-nonbinary-demi-ainbow,
+span.flair-nonbinary-demi-bi,
+span.flair-nonbinary-demi-het,
+span.flair-nonbinary-demi-pan,
+span.flair-neutrois-demi-ainbow,
+span.flair-neutrois-demi-bi,
+span.flair-neutrois-demi-het,
+span.flair-neutrois-demi-pan,
+span.flair-demiboy-demi-ainbow,
+span.flair-demiboy-demi-bi,
+span.flair-demiboy-demi-het,
+span.flair-demiboy-demi-pan,
+span.flair-demigirl-demi-ainbow,
+span.flair-demigirl-demi-bi,
+span.flair-demigirl-demi-het,
+span.flair-demigirl-demi-pan,
+span.flair-deminonbinary-demi-ainbow,
+span.flair-deminonbinary-demi-pan,
+span.flair-deminonbinary-demi-bi,
+span.flair-deminonbinary-demi-het,
+span.flair-agender-demi-ainbow,
+span.flair-agender-demi-pan,
+span.flair-agender-demi-bi,
+span.flair-agender-demi-het
 {
 	visibility: visible;
 	width: 18px;
@@ -45,7 +122,6 @@ span.flair-genderqueer-demi-pan
 }
 
 /* single image flair flags */
-
 span.flair
 {
    text-indent: 22px;
@@ -56,7 +132,6 @@ span.flair
 }
 
 /* over ride some tags for dual flags */
-
 span.flair-trans-ainbow, 
 span.flair-trans-pan, 
 span.flair-trans-bi,
@@ -65,10 +140,52 @@ span.flair-trans-ace,
 span.flair-trans-demi,
 span.flair-genderqueer-ainbow, 
 span.flair-genderqueer-pan, 
-span.flair-genderqueer-bi, 
+span.flair-genderqueer-bi,
 span.flair-genderqueer-het,
 span.flair-genderqueer-ace,
 span.flair-genderqueer-demi,
+span.flair-genderfluid-ainbow, 
+span.flair-genderfluid-pan, 
+span.flair-genderfluid-bi,
+span.flair-genderfluid-het,
+span.flair-genderfluid-ace,
+span.flair-genderfluid-demi,
+span.flair-nonbinary-ainbow, 
+span.flair-nonbinary-pan, 
+span.flair-nonbinary-bi,
+span.flair-nonbinary-het,
+span.flair-nonbinary-ace,
+span.flair-nonbinary-demi,
+span.flair-neutrois-ainbow, 
+span.flair-neutrois-pan, 
+span.flair-neutrois-bi,
+span.flair-neutrois-het,
+span.flair-neutrois-ace,
+span.flair-neutrois-demi,
+span.flair-demiboy-ainbow, 
+span.flair-demiboy-pan, 
+span.flair-demiboy-bi,
+span.flair-demiboy-het,
+span.flair-demiboy-ace,
+span.flair-demiboy-demi,
+span.flair-demigirl-ainbow, 
+span.flair-demigirl-pan, 
+span.flair-demigirl-bi,
+span.flair-demigirl-het,
+span.flair-demigirl-ace,
+span.flair-demigirl-demi,
+span.flair-deminonbinary-ainbow, 
+span.flair-deminonbinary-pan, 
+span.flair-deminonbinary-bi,
+span.flair-deminonbinary-het,
+span.flair-deminonbinary-ace,
+span.flair-deminonbinary-demi,
+span.flair-agender-ainbow, 
+span.flair-agender-pan, 
+span.flair-agender-bi,
+span.flair-agender-het,
+span.flair-agender-ace,
+span.flair-agender-demi,
 span.flair-demi-ainbow,
 span.flair-demi-bi,
 span.flair-demi-het,
@@ -89,7 +206,35 @@ span.flair-trans-demi-pan,
 span.flair-genderqueer-demi-ainbow,
 span.flair-genderqueer-demi-bi,
 span.flair-genderqueer-demi-het,
-span.flair-genderqueer-demi-pan
+span.flair-genderqueer-demi-pan,
+span.flair-genderfluid-demi-ainbow,
+span.flair-genderfluid-demi-bi,
+span.flair-genderfluid-demi-het,
+span.flair-genderfluid-demi-pan,
+span.flair-nonbinary-demi-ainbow,
+span.flair-nonbinary-demi-bi,
+span.flair-nonbinary-demi-het,
+span.flair-nonbinary-demi-pan,
+span.flair-neutrois-demi-ainbow,
+span.flair-neutrois-demi-bi,
+span.flair-neutrois-demi-het,
+span.flair-neutrois-demi-pan,
+span.flair-demiboy-demi-ainbow,
+span.flair-demiboy-demi-bi,
+span.flair-demiboy-demi-het,
+span.flair-demiboy-demi-pan,
+span.flair-demigirl-demi-ainbow,
+span.flair-demigirl-demi-bi,
+span.flair-demigirl-demi-het,
+span.flair-demigirl-demi-pan,
+span.flair-deminonbinary-demi-ainbow,
+span.flair-deminonbinary-demi-bi,
+span.flair-deminonbinary-demi-het,
+span.flair-deminonbinary-demi-pan,
+span.flair-agender-demi-ainbow,
+span.flair-agender-demi-bi,
+span.flair-agender-demi-het,
+span.flair-agender-demi-pan
 {
     text-indent: 68px;
     min-width: 62px;
@@ -115,19 +260,60 @@ span.flair:not(:empty) {
 }
 
 /* over ride some tags for dual flags */
-
 .res-nightmode span.flair-trans-ainbow, 
 .res-nightmode span.flair-trans-pan, 
 .res-nightmode span.flair-trans-bi,
 .res-nightmode span.flair-trans-het,
 .res-nightmode span.flair-trans-ace, 
 .res-nightmode span.flair-trans-demi,
-.res-nightmode span.flair-genderqueer-ainbow,
-.res-nightmode span.flair-genderqueer-pan,
+.res-nightmode span.flair-genderqueer-ainbow, 
+.res-nightmode span.flair-genderqueer-pan, 
 .res-nightmode span.flair-genderqueer-bi,
 .res-nightmode span.flair-genderqueer-het,
 .res-nightmode span.flair-genderqueer-ace,
 .res-nightmode span.flair-genderqueer-demi,
+.res-nightmode span.flair-genderfluid-ainbow, 
+.res-nightmode span.flair-genderfluid-pan, 
+.res-nightmode span.flair-genderfluid-bi,
+.res-nightmode span.flair-genderfluid-het,
+.res-nightmode span.flair-genderfluid-ace,
+.res-nightmode span.flair-genderfluid-demi,
+.res-nightmode span.flair-nonbinary-ainbow, 
+.res-nightmode span.flair-nonbinary-pan, 
+.res-nightmode span.flair-nonbinary-bi,
+.res-nightmode span.flair-nonbinary-het,
+.res-nightmode span.flair-nonbinary-ace,
+.res-nightmode span.flair-nonbinary-demi,
+.res-nightmode span.flair-neutrois-ainbow, 
+.res-nightmode span.flair-neutrois-pan, 
+.res-nightmode span.flair-neutrois-bi,
+.res-nightmode span.flair-neutrois-het,
+.res-nightmode span.flair-neutrois-ace,
+.res-nightmode span.flair-neutrois-demi,
+.res-nightmode span.flair-demiboy-ainbow, 
+.res-nightmode span.flair-demiboy-pan, 
+.res-nightmode span.flair-demiboy-bi,
+.res-nightmode span.flair-demiboy-het,
+.res-nightmode span.flair-demiboy-ace,
+.res-nightmode span.flair-demiboy-demi,
+.res-nightmode span.flair-demigirl-ainbow, 
+.res-nightmode span.flair-demigirl-pan, 
+.res-nightmode span.flair-demigirl-bi,
+.res-nightmode span.flair-demigirl-het,
+.res-nightmode span.flair-demigirl-ace,
+.res-nightmode span.flair-demigirl-demi,
+.res-nightmode span.flair-deminonbinary-ainbow, 
+.res-nightmode span.flair-deminonbinary-pan, 
+.res-nightmode span.flair-deminonbinary-bi,
+.res-nightmode span.flair-deminonbinary-het,
+.res-nightmode span.flair-deminonbinary-ace,
+.res-nightmode span.flair-deminonbinary-demi,
+.res-nightmode span.flair-agender-ainbow, 
+.res-nightmode span.flair-agender-pan, 
+.res-nightmode span.flair-agender-bi,
+.res-nightmode span.flair-agender-het,
+.res-nightmode span.flair-agender-ace,
+.res-nightmode span.flair-agender-demi,
 .res-nightmode span.flair-demi-ainbow,
 .res-nightmode span.flair-demi-bi,
 .res-nightmode span.flair-demi-het,
@@ -149,6 +335,38 @@ span.flair:not(:empty) {
 .res-nightmode span.flair-genderqueer-demi-bi,
 .res-nightmode span.flair-genderqueer-demi-het,
 .res-nightmode span.flair-genderqueer-demi-pan
+.res-nightmode span.flair-genderqueer-demi-ainbow,
+.res-nightmode span.flair-genderqueer-demi-bi,
+.res-nightmode span.flair-genderqueer-demi-het,
+.res-nightmode span.flair-genderqueer-demi-pan,
+.res-nightmode span.flair-genderfluid-demi-ainbow,
+.res-nightmode span.flair-genderfluid-demi-bi,
+.res-nightmode span.flair-genderfluid-demi-het,
+.res-nightmode span.flair-genderfluid-demi-pan,
+.res-nightmode span.flair-nonbinary-demi-ainbow,
+.res-nightmode span.flair-nonbinary-demi-bi,
+.res-nightmode span.flair-nonbinary-demi-het,
+.res-nightmode span.flair-nonbinary-demi-pan,
+.res-nightmode span.flair-neutrois-demi-ainbow,
+.res-nightmode span.flair-neutrois-demi-bi,
+.res-nightmode span.flair-neutrois-demi-het,
+.res-nightmode span.flair-neutrois-demi-pan,
+.res-nightmode span.flair-demiboy-demi-ainbow,
+.res-nightmode span.flair-demiboy-demi-bi,
+.res-nightmode span.flair-demiboy-demi-het,
+.res-nightmode span.flair-demiboy-demi-pan,
+.res-nightmode span.flair-demigirl-demi-ainbow,
+.res-nightmode span.flair-demigirl-demi-bi,
+.res-nightmode span.flair-demigirl-demi-het,
+.res-nightmode span.flair-demigirl-demi-pan,
+.res-nightmode span.flair-deminonbinary-demi-ainbow,
+.res-nightmode span.flair-deminonbinary-demi-bi,
+.res-nightmode span.flair-deminonbinary-demi-het,
+.res-nightmode span.flair-deminonbinary-demi-pan,
+.res-nightmode span.flair-agender-demi-ainbow,
+.res-nightmode span.flair-agender-demi-bi,
+.res-nightmode span.flair-agender-demi-het,
+.res-nightmode span.flair-agender-demi-pan
 {
     text-indent: 68px;
     min-width: 62px;
@@ -186,7 +404,14 @@ a[href="/het"]:after,
 a[href="/ace"]:after, 
 a[href="/demi"]:after, 
 a[href="/pan"]:after, 
-a[href="/genderqueer"]:after
+a[href="/genderqueer"]:after,
+a[href="/genderfluid"]:after, 
+a[href="/nonbinary"]:after, 
+a[href="/neutrois"]:after,
+a[href="/demiboy"]:after, 
+a[href="/demigirl"]:after, 
+a[href="/deminonbinary"]:after,
+a[href="/agender"]:after
 {
     width: 18px;
     height: 12px;
@@ -219,6 +444,13 @@ span.flair-demi { background:#DDD url(%%demi%%) no-repeat left top !important; }
 span.flair-trans { background:#DDD url(%%trans%%) no-repeat left top !important; }
 span.flair-pan { background:#DDD url(%%pan%%) no-repeat left top !important; }
 span.flair-genderqueer { background:#DDD url(%%gq%%) no-repeat left top !important; }
+span.flair-genderfluid { background:#DDD url(%%gf%%) no-repeat left top !important; }
+span.flair-nonbinary { background:#DDD url(%%nb%%) no-repeat left top !important; }
+span.flair-neutrois { background:#DDD url(%%neutrois%%) no-repeat left top !important; }
+span.flair-demiboy { background:#DDD url(%%db%%) no-repeat left top !important; }
+span.flair-demigirl { background:#DDD url(%%dg%%) no-repeat left top !important; }
+span.flair-deminonbinary { background:#DDD url(%%dnb%%) no-repeat left top !important; }
+span.flair-agender { background:#DDD url(%%ag%%) no-repeat left top !important; }
 /* End single flag flair images */
 /* Begin dual flag flair images */
 span.flair-trans-ainbow { background-image: url(%%trans%%), url(%%ainbow%%); }
@@ -233,10 +465,52 @@ span.flair-genderqueer-bi { background-image: url(%%gq%%), url(%%bi%%); }
 span.flair-genderqueer-het { background-image: url(%%gq%%), url(%%het%%); }
 span.flair-genderqueer-ace { background-image: url(%%gq%%), url(%%ace%%); }
 span.flair-genderqueer-demi { background-image: url(%%gq%%), url(%%demi%%); }
+span.flair-genderfluid-ainbow { background-image: url(%%gf%%), url(%%ainbow%%); }
+span.flair-genderfluid-pan { background-image: url(%%gf%%), url(%%pan%%); }
+span.flair-genderfluid-bi { background-image: url(%%gf%%), url(%%bi%%); }
+span.flair-genderfluid-het { background-image: url(%%gf%%), url(%%het%%); }
+span.flair-genderfluid-ace { background-image: url(%%gf%%), url(%%ace%%); }
+span.flair-genderfluid-demi { background-image: url(%%gf%%), url(%%demi%%); }
+span.flair-nonbinary-ainbow { background-image: url(%%nb%%), url(%%ainbow%%); }
+span.flair-nonbinary-pan { background-image: url(%%nb%%), url(%%pan%%); }
+span.flair-nonbinary-bi { background-image: url(%%nb%%), url(%%bi%%); }
+span.flair-nonbinary-het { background-image: url(%%nb%%), url(%%het%%); }
+span.flair-nonbinary-ace { background-image: url(%%nb%%), url(%%ace%%); }
+span.flair-nonbinary-demi { background-image: url(%%nb%%), url(%%demi%%); }
+span.flair-neutrois-ainbow { background-image: url(%%neutrois%%), url(%%ainbow%%); }
+span.flair-neutrois-pan { background-image: url(%%neutrois%%), url(%%pan%%); }
+span.flair-neutrois-bi { background-image: url(%%neutrois%%), url(%%bi%%); }
+span.flair-neutrois-het { background-image: url(%%neutrois%%), url(%%het%%); }
+span.flair-neutrois-ace { background-image: url(%%neutrois%%), url(%%ace%%); }
+span.flair-neutrois-demi { background-image: url(%%neutrois%%), url(%%demi%%); }
+span.flair-demiboy-ainbow { background-image: url(%%db%%), url(%%ainbow%%); }
+span.flair-demiboy-pan { background-image: url(%%db%%), url(%%pan%%); }
+span.flair-demiboy-bi { background-image: url(%%db%%), url(%%bi%%); }
+span.flair-demiboy-het { background-image: url(%%db%%), url(%%het%%); }
+span.flair-demiboy-ace { background-image: url(%%db%%), url(%%ace%%); }
+span.flair-demiboy-demi { background-image: url(%%db%%), url(%%demi%%); }
+span.flair-demigirl-ainbow { background-image: url(%%dg%%), url(%%ainbow%%); }
+span.flair-demigirl-pan { background-image: url(%%dg%%), url(%%pan%%); }
+span.flair-demigirl-bi { background-image: url(%%dg%%), url(%%bi%%); }
+span.flair-demigirl-het { background-image: url(%%dg%%), url(%%het%%); }
+span.flair-demigirl-ace { background-image: url(%%dg%%), url(%%ace%%); }
+span.flair-demigirl-demi { background-image: url(%%dg%%), url(%%demi%%); }
+span.flair-deminonbinary-ainbow { background-image: url(%%dnb%%), url(%%ainbow%%); }
+span.flair-deminonbinary-pan { background-image: url(%%dnb%%), url(%%pan%%); }
+span.flair-deminonbinary-bi { background-image: url(%%dnb%%), url(%%bi%%); }
+span.flair-deminonbinary-het { background-image: url(%%dnb%%), url(%%het%%); }
+span.flair-deminonbinary-ace { background-image: url(%%dnb%%), url(%%ace%%); }
+span.flair-deminonbinary-demi { background-image: url(%%dnb%%), url(%%demi%%); }
+span.flair-agender-ainbow { background-image: url(%%ag%%), url(%%ainbow%%); }
+span.flair-agender-pan { background-image: url(%%ag%%), url(%%pan%%); }
+span.flair-agender-bi { background-image: url(%%ag%%), url(%%bi%%); }
+span.flair-agender-het { background-image: url(%%ag%%), url(%%het%%); }
+span.flair-agender-ace { background-image: url(%%ag%%), url(%%ace%%); }
+span.flair-agender-demi { background-image: url(%%ag%%), url(%%demi%%); }
 span.flair-demi-ainbow { background-image: url(%%demi%%), url(%%ainbow%%); }
+span.flair-demi-pan { background-image: url(%%demi%%), url(%%pan%%); }
 span.flair-demi-bi { background-image: url(%%demi%%), url(%%bi%%); }
 span.flair-demi-het { background-image: url(%%demi%%), url(%%het%%); }
-span.flair-demi-pan { background-image: url(%%demi%%), url(%%pan%%); }
 /* End dual flag flair images */
 /* Begin triple flag flair images */
 span.flair-trans-demi-ainbow { background-image: url(%%trans%%), url(%%demi%%), url(%%ainbow%%); }
@@ -247,6 +521,34 @@ span.flair-genderqueer-demi-ainbow { background-image: url(%%gq%%), url(%%demi%%
 span.flair-genderqueer-demi-bi { background-image: url(%%gq%%), url(%%demi%%), url(%%bi%%); }
 span.flair-genderqueer-demi-het { background-image: url(%%gq%%), url(%%demi%%), url(%%het%%); }
 span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), url(%%pan%%); }
+span.flair-genderfluid-demi-ainbow { background-image: url(%%gf%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-genderfluid-demi-bi { background-image: url(%%gf%%), url(%%demi%%), url(%%bi%%); }
+span.flair-genderfluid-demi-het { background-image: url(%%gf%%), url(%%demi%%), url(%%het%%); }
+span.flair-genderfluid-demi-pan { background-image: url(%%gf%%), url(%%demi%%), url(%%pan%%); }
+span.flair-nonbinary-demi-ainbow { background-image: url(%%nb%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-nonbinary-demi-bi { background-image: url(%%nb%%), url(%%demi%%), url(%%bi%%); }
+span.flair-nonbinary-demi-het { background-image: url(%%nb%%), url(%%demi%%), url(%%het%%); }
+span.flair-nonbinary-demi-pan { background-image: url(%%nb%%), url(%%demi%%), url(%%pan%%); }
+span.flair-neutrois-demi-ainbow { background-image: url(%%neutrois%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-neutrois-demi-bi { background-image: url(%%neutrois%%), url(%%demi%%), url(%%bi%%); }
+span.flair-neutrois-demi-het { background-image: url(%%neutrois%%), url(%%demi%%), url(%%het%%); }
+span.flair-neutrois-demi-pan { background-image: url(%%neutrois%%), url(%%demi%%), url(%%pan%%); }
+span.flair-demiboy-demi-ainbow { background-image: url(%%db%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-demiboy-demi-bi { background-image: url(%%db%%), url(%%demi%%), url(%%bi%%); }
+span.flair-demiboy-demi-het { background-image: url(%%db%%), url(%%demi%%), url(%%het%%); }
+span.flair-demiboy-demi-pan { background-image: url(%%db%%), url(%%demi%%), url(%%pan%%); }
+span.flair-demigirl-demi-ainbow { background-image: url(%%dg%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-demigirl-demi-bi { background-image: url(%%dg%%), url(%%demi%%), url(%%bi%%); }
+span.flair-demigirl-demi-het { background-image: url(%%dg%%), url(%%demi%%), url(%%het%%); }
+span.flair-demigirl-demi-pan { background-image: url(%%dg%%), url(%%demi%%), url(%%pan%%); }
+span.flair-deminonbinary-demi-ainbow { background-image: url(%%dnb%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-deminonbinary-demi-bi { background-image: url(%%dnb%%), url(%%demi%%), url(%%bi%%); }
+span.flair-deminonbinary-demi-het { background-image: url(%%dnb%%), url(%%demi%%), url(%%het%%); }
+span.flair-deminonbinary-demi-pan { background-image: url(%%dnb%%), url(%%demi%%), url(%%pan%%); }
+span.flair-agender-demi-ainbow { background-image: url(%%ag%%), url(%%demi%%), url(%%ainbow%%); }
+span.flair-agender-demi-bi { background-image: url(%%ag%%), url(%%demi%%), url(%%bi%%); }
+span.flair-agender-demi-het { background-image: url(%%ag%%), url(%%demi%%), url(%%het%%); }
+span.flair-agender-demi-pan { background-image: url(%%ag%%), url(%%demi%%), url(%%pan%%); }
 /* End triple flag flair images */
 
 /* RES nightMode Flair, darker background with white text*/
@@ -260,6 +562,13 @@ span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), 
 .res-nightmode  span.flair-trans { background:#777 url(%%trans%%) no-repeat left top !important; }
 .res-nightmode  span.flair-pan { background:#777 url(%%pan%%) no-repeat left top !important; }
 .res-nightmode  span.flair-genderqueer { background:#777 url(%%gq%%) no-repeat left top !important; }
+.res-nightmode  span.flair-genderfluid { background:#777 url(%%gf%%) no-repeat left top !important; }
+.res-nightmode  span.flair-nonbinary { background:#777 url(%%nb%%) no-repeat left top !important; }
+.res-nightmode  span.flair-neutrois { background:#777 url(%%neutrois%%) no-repeat left top !important; }
+.res-nightmode  span.flair-demiboy { background:#777 url(%%db%%) no-repeat left top !important; }
+.res-nightmode  span.flair-demigirl { background:#777 url(%%dg%%) no-repeat left top !important; }
+.res-nightmode  span.flair-deminonbinary { background:#777 url(%%dnb%%) no-repeat left top !important; }
+.res-nightmode  span.flair-agender { background:#777 url(%%ag%%) no-repeat left top !important; }
 /* End single flag flair images */
 /* Begin dual flag flair images */
 .res-nightmode  span.flair-trans-ainbow { background-image: url(%%trans%%), url(%%ainbow%%); }
@@ -274,6 +583,48 @@ span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), 
 .res-nightmode  span.flair-genderqueer-het { background-image: url(%%gq%%), url(%%het%%); }
 .res-nightmode  span.flair-genderqueer-ace { background-image: url(%%gq%%), url(%%ace%%); }
 .res-nightmode  span.flair-genderqueer-demi { background-image: url(%%gq%%), url(%%demi%%); }
+.res-nightmode  span.flair-genderfluid-ainbow { background-image: url(%%gf%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-genderfluid-pan { background-image: url(%%gf%%), url(%%pan%%); }
+.res-nightmode  span.flair-genderfluid-bi { background-image: url(%%gf%%), url(%%bi%%); }
+.res-nightmode  span.flair-genderfluid-het { background-image: url(%%gf%%), url(%%het%%); }
+.res-nightmode  span.flair-genderfluid-ace { background-image: url(%%gf%%), url(%%ace%%); }
+.res-nightmode  span.flair-genderfluid-demi { background-image: url(%%gf%%), url(%%demi%%); }
+.res-nightmode  span.flair-nonbinary-ainbow { background-image: url(%%nb%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-nonbinary-pan { background-image: url(%%nb%%), url(%%pan%%); }
+.res-nightmode  span.flair-nonbinary-bi { background-image: url(%%nb%%), url(%%bi%%); }
+.res-nightmode  span.flair-nonbinary-het { background-image: url(%%nb%%), url(%%het%%); }
+.res-nightmode  span.flair-nonbinary-ace { background-image: url(%%nb%%), url(%%ace%%); }
+.res-nightmode  span.flair-nonbinary-demi { background-image: url(%%nb%%), url(%%demi%%); }
+.res-nightmode  span.flair-neutrois-ainbow { background-image: url(%%neutrois%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-neutrois-pan { background-image: url(%%neutrois%%), url(%%pan%%); }
+.res-nightmode  span.flair-neutrois-bi { background-image: url(%%neutrois%%), url(%%bi%%); }
+.res-nightmode  span.flair-neutrois-het { background-image: url(%%neutrois%%), url(%%het%%); }
+.res-nightmode  span.flair-neutrois-ace { background-image: url(%%neutrois%%), url(%%ace%%); }
+.res-nightmode  span.flair-neutrois-demi { background-image: url(%%neutrois%%), url(%%demi%%); }
+.res-nightmode  span.flair-demiboy-ainbow { background-image: url(%%db%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-demiboy-pan { background-image: url(%%db%%), url(%%pan%%); }
+.res-nightmode  span.flair-demiboy-bi { background-image: url(%%db%%), url(%%bi%%); }
+.res-nightmode  span.flair-demiboy-het { background-image: url(%%db%%), url(%%het%%); }
+.res-nightmode  span.flair-demiboy-ace { background-image: url(%%db%%), url(%%ace%%); }
+.res-nightmode  span.flair-demiboy-demi { background-image: url(%%db%%), url(%%demi%%); }
+.res-nightmode  span.flair-demigirl-ainbow { background-image: url(%%dg%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-demigirl-pan { background-image: url(%%dg%%), url(%%pan%%); }
+.res-nightmode  span.flair-demigirl-bi { background-image: url(%%dg%%), url(%%bi%%); }
+.res-nightmode  span.flair-demigirl-het { background-image: url(%%dg%%), url(%%het%%); }
+.res-nightmode  span.flair-demigirl-ace { background-image: url(%%dg%%), url(%%ace%%); }
+.res-nightmode  span.flair-demigirl-demi { background-image: url(%%dg%%), url(%%demi%%); }
+.res-nightmode  span.flair-deminonbinary-ainbow { background-image: url(%%dnb%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-deminonbinary-pan { background-image: url(%%dnb%%), url(%%pan%%); }
+.res-nightmode  span.flair-deminonbinary-bi { background-image: url(%%dnb%%), url(%%bi%%); }
+.res-nightmode  span.flair-deminonbinary-het { background-image: url(%%dnb%%), url(%%het%%); }
+.res-nightmode  span.flair-deminonbinary-ace { background-image: url(%%dnb%%), url(%%ace%%); }
+.res-nightmode  span.flair-deminonbinary-demi { background-image: url(%%dnb%%), url(%%demi%%); }
+.res-nightmode  span.flair-agender-ainbow { background-image: url(%%ag%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-agender-pan { background-image: url(%%ag%%), url(%%pan%%); }
+.res-nightmode  span.flair-agender-bi { background-image: url(%%ag%%), url(%%bi%%); }
+.res-nightmode  span.flair-agender-het { background-image: url(%%ag%%), url(%%het%%); }
+.res-nightmode  span.flair-agender-ace { background-image: url(%%ag%%), url(%%ace%%); }
+.res-nightmode  span.flair-agender-demi { background-image: url(%%ag%%), url(%%demi%%); }
 .res-nightmode  span.flair-demi-ainbow { background-image: url(%%demi%%), url(%%ainbow%%); }
 .res-nightmode  span.flair-demi-bi { background-image: url(%%demi%%), url(%%bi%%); }
 .res-nightmode  span.flair-demi-het { background-image: url(%%demi%%), url(%%het%%); }
@@ -289,6 +640,34 @@ span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), 
 .res-nightmode  span.flair-genderqueer-demi-bi { background-image: url(%%gq%%), url(%%demi%%), url(%%bi%%); }
 .res-nightmode  span.flair-genderqueer-demi-het { background-image: url(%%gq%%), url(%%demi%%), url(%%het%%); }
 .res-nightmode  span.flair-genderqueer-demi-pan { background-image: url(%%gq%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-genderfluid-demi-ainbow { background-image: url(%%gf%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-genderfluid-demi-bi { background-image: url(%%gf%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-genderfluid-demi-het { background-image: url(%%gf%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-genderfluid-demi-pan { background-image: url(%%gf%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-nonbinary-demi-ainbow { background-image: url(%%nb%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-nonbinary-demi-bi { background-image: url(%%nb%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-nonbinary-demi-het { background-image: url(%%nb%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-nonbinary-demi-pan { background-image: url(%%nb%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-neutrois-demi-ainbow { background-image: url(%%neutrois%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-neutrois-demi-bi { background-image: url(%%neutrois%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-neutrois-demi-het { background-image: url(%%neutrois%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-neutrois-demi-pan { background-image: url(%%neutrois%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-demiboy-demi-ainbow { background-image: url(%%db%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-demiboy-demi-bi { background-image: url(%%db%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-demiboy-demi-het { background-image: url(%%db%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-demiboy-demi-pan { background-image: url(%%db%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-demigirl-demi-ainbow { background-image: url(%%dg%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-demigirl-demi-bi { background-image: url(%%dg%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-demigirl-demi-het { background-image: url(%%dg%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-demigirl-demi-pan { background-image: url(%%dg%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-deminonbinary-demi-ainbow { background-image: url(%%dnb%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-deminonbinary-demi-bi { background-image: url(%%dnb%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-deminonbinary-demi-het { background-image: url(%%dnb%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-deminonbinary-demi-pan { background-image: url(%%dnb%%), url(%%demi%%), url(%%pan%%); }
+.res-nightmode  span.flair-agender-demi-ainbow { background-image: url(%%ag%%), url(%%demi%%), url(%%ainbow%%); }
+.res-nightmode  span.flair-agender-demi-bi { background-image: url(%%ag%%), url(%%demi%%), url(%%bi%%); }
+.res-nightmode  span.flair-agender-demi-het { background-image: url(%%ag%%), url(%%demi%%), url(%%het%%); }
+.res-nightmode  span.flair-agender-demi-pan { background-image: url(%%ag%%), url(%%demi%%), url(%%pan%%); }
 /* End triple flag flair images */
 
 /* DEPRECATED 2012-10-17: Reddit's 'Remove Flair' button handles
@@ -311,6 +690,13 @@ a[href="/ace"]:after { background-image: url(%%ace%%); }
 a[href="/demi"]:after { background-image: url(%%demi%%); }
 a[href="/pan"]:after { background-image: url(%%pan%%); }
 a[href="/genderqueer"]:after { background-image: url(%%gq%%); }
+a[href="/genderfluid"]:after { background-image: url(%%gf%%); }
+a[href="/nonbinary"]:after { background-image: url(%%nb%%); }
+a[href="/neutrois"]:after { background-image: url(%%neutrois%%); }
+a[href="/demiboy"]:after { background-image: url(%%db%%); }
+a[href="/demigirl"]:after { background-image: url(%%dg%%); }
+a[href="/deminonbinary"]:after { background-image: url(%%dnb%%); }
+a[href="/agender"]:after { background-image: url(%%ag%%); }
 /* End inline images */
 /*** End /r/ainbow flair CSS ***/
 

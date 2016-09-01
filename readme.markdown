@@ -1,10 +1,10 @@
-LGBT-Themed Flair for Reddit communities
+LGBT and GSM Themed Flair for Reddit communities
 ========================================
 
 **This fork replaces the split flags over at [/r/ainbow](http://www.reddit.com/r/ainbow/) 
 for flags side by side in the user's flair, saving on the number of images 
 counting towards reddit's cap and making it easier to add new flags into the project.
-Thus this fork only contains 8 images of flags, but still supports many 
+Thus this fork only contains 16 images of flags, but still supports many 
 combinations by placing each flag image in the user's flair together**
 
 
@@ -44,8 +44,15 @@ reference, this is /r/demisexuality's order as of July 2016:
  * het
  * ace
  * demi
- * genderqueer
  * trans
+ * genderqueer
+ * genderfluid
+ * nonbinary
+ * neutrois
+ * demiboy
+ * demigirl
+ * deminonbinary
+ * agender
  * ally
  * noflag
  * demi-ainbow
@@ -72,6 +79,22 @@ reference, this is /r/demisexuality's order as of July 2016:
  * genderqueer-demi-pan
  * genderqueer-demi-bi
  * genderqueer-demi-het
+ 
+and so on for genderfluid, nonbinary, neutrois, demiboy, demigirl, 
+deminonbinary and agender where first it cycles through 
+* genderflagnamehere-ainbow
+* genderflagnamehere-pan
+* genderflagnamehere-bi
+* genderflagnamehere-het
+* genderflagnamehere-ace
+* genderflagnamehere-demi
+then does the demi triple flags like
+* genderflagnamehere-demi-ainbow
+* genderflagnamehere-demi-pan
+* genderflagnamehere-demi-bi
+* genderflagnamehere-demi-het
+
+I might consider making some sort of automated tool as this keeps scaling
 
 Notes
 -----
