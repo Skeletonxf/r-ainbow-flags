@@ -698,5 +698,341 @@ a[href="/demigirl"]:after { background-image: url(%%dg%%); }
 a[href="/deminonbinary"]:after { background-image: url(%%dnb%%); }
 a[href="/agender"]:after { background-image: url(%%ag%%); }
 /* End inline images */
+
+/* Flag hover text */
+
+/* Gigantic boilerplate mouse hover text */
+
+span.flair-ainbow:hover:after {
+    content: " Rainbow";
+}
+span.flair-trans:hover:after {
+    content: " Trans";
+}
+span.flair-bi:hover:after {
+    content: " Bisexual";
+}
+span.flair-het:hover:after {
+    content: " Heterosexual";
+}
+span.flair-ace:hover:after {
+    content: " Asexual";
+}
+span.flair-demi:hover:after {
+    content: " Demisexual";
+}
+span.flair-ally:hover:after {
+    content: " Ally";
+}
+span.flair-pan:hover:after {
+    content: " Pansexual";
+}
+span.flair-genderqueer:hover:after {
+    content: " Genderqueer";
+}
+span.flair-genderfluid:hover:after {
+    content: " Genderfluid";
+}
+span.flair-nonbinary:hover:after {
+    content: " Nonbinary";
+}
+span.flair-neutrois:hover:after {
+    content: " Neutrois";
+}
+span.flair-demiboy:hover:after {
+    content: " Demiboy";
+}
+span.flair-demigirl:hover:after {
+    content: " Demigirl";
+}
+span.flair-deminonbinary:hover:after {
+    content: " Deminonbinary";
+}
+span.flair-agender:hover:after {
+    content: " Agender";
+}
+span.flair-trans-ainbow:hover:after {
+    content: " Trans Rainbow";
+}
+span.flair-trans-pan:hover:after {
+    content: " Trans Pansexual";
+}
+span.flair-trans-bi:hover:after {
+    content: " Trans Bisexual";
+}
+span.flair-trans-het:hover:after {
+    content: " Trans Heterosexual";
+}
+span.flair-trans-ace:hover:after {
+    content: " Trans Asexual";
+}
+span.flair-trans-demi:hover:after {
+    content: " Trans Demisexual";
+}
+span.flair-genderqueer-ainbow:hover:after {
+    content: " Genderqueer Rainbow";
+}
+span.flair-genderqueer-pan:hover:after {
+    content: " Genderqueer Pansexual";
+}
+span.flair-genderqueer-bi:hover:after {
+    content: " Genderqueer Bisexual";
+}
+span.flair-genderqueer-het:hover:after {
+    content: " Genderqueer Heterosexual";
+}
+span.flair-genderqueer-ace:hover:after {
+    content: " Genderqueer Asexual";
+}
+span.flair-genderqueer-demi:hover:after {
+    content: " Genderqueer Demisexual";
+}
+span.flair-genderfluid-ainbow:hover:after {
+    content: " Genderfluid Rainbow";
+}
+span.flair-genderfluid-pan:hover:after {
+    content: " Genderfluid Pansexual";
+}
+span.flair-genderfluid-bi:hover:after {
+    content: " Genderfluid Bisexual";
+}
+span.flair-genderfluid-het:hover:after {
+    content: " Genderfluid Heterosexual";
+}
+span.flair-genderfluid-ace:hover:after {
+    content: " Genderfluid Asexual";
+}
+span.flair-genderfluid-demi:hover:after {
+    content: " Genderfluid Demisexual";
+}
+span.flair-nonbinary-ainbow:hover:after {
+    content: " Nonbinary Rainbow";
+} 
+span.flair-nonbinary-pan:hover:after {
+    content: " Nonbinary Pansexual";
+} 
+span.flair-nonbinary-bi:hover:after {
+    content: " Nonbinary Bisexual";
+} 
+span.flair-nonbinary-het:hover:after {
+    content: " Nonbinary Heterosexual";
+} 
+span.flair-nonbinary-ace:hover:after {
+    content: " Nonbinary Asexual";
+} 
+span.flair-nonbinary-demi:hover:after {
+    content: " Nonbinary Demisexual";
+} 
+span.flair-neutrois-ainbow:hover:after {
+    content: " Neutrois Rainbow";
+} 
+span.flair-neutrois-pan:hover:after {
+    content: " Neutrois Pansexual";
+} 
+span.flair-neutrois-bi:hover:after {
+    content: " Neutrois Bisexual";
+} 
+span.flair-neutrois-het:hover:after {
+    content: " Neutrois Heterosexual";
+} 
+span.flair-neutrois-ace:hover:after {
+    content: " Neutrois Asexual";
+} 
+span.flair-neutrois-demi:hover:after {
+    content: " Neutrois Demisexual";
+} 
+span.flair-demiboy-ainbow:hover:after {
+    content: " Demiboy Rainbow";
+}  
+span.flair-demiboy-pan:hover:after {
+    content: " Demiboy Pansexual";
+}  
+span.flair-demiboy-bi:hover:after {
+    content: " Demiboy Bisexual";
+}  
+span.flair-demiboy-het:hover:after {
+    content: " Demiboy Heterosexual";
+}  
+span.flair-demiboy-ace:hover:after {
+    content: " Demiboy Asexual";
+}  
+span.flair-demiboy-demi:hover:after {
+    content: " Demiboy Demisexual";
+}  
+span.flair-demigirl-ainbow:hover:after {
+    content: " Demigirl Rainbow";
+}  
+span.flair-demigirl-pan:hover:after {
+    content: " Demigirl Pansexual";
+}  
+span.flair-demigirl-bi:hover:after {
+    content: " Demigirl Bisexual";
+}  
+span.flair-demigirl-het:hover:after {
+    content: " Demigirl Heterosexual";
+}  
+span.flair-demigirl-ace:hover:after {
+    content: " Demigirl Asexual";
+}  
+span.flair-demigirl-demi:hover:after {
+    content: " Demigirl Demisexual";
+}  
+span.flair-deminonbinary-ainbow:hover:after {
+    content: " Nonbinary Rainbow";
+}  
+span.flair-deminonbinary-pan:hover:after {
+    content: " Nonbinary Pansexual";
+}  
+span.flair-deminonbinary-bi:hover:after {
+    content: " Nonbinary Bisexual";
+}  
+span.flair-deminonbinary-het:hover:after {
+    content: " Nonbinary Heterosexual";
+}  
+span.flair-deminonbinary-ace:hover:after {
+    content: " Nonbinary Asexual";
+}  
+span.flair-deminonbinary-demi:hover:after {
+    content: " Nonbinary Demisexual";
+}  
+span.flair-agender-ainbow:hover:after {
+    content: " Agender Rainbow";
+}  
+span.flair-agender-pan:hover:after {
+    content: " Agender Pansexual";
+}  
+span.flair-agender-bi:hover:after {
+    content: " Agender Bisexual";
+}  
+span.flair-agender-het:hover:after {
+    content: " Agender Heterosexual";
+}  
+span.flair-agender-ace:hover:after{
+    content: " Agender Asexual";
+}  
+span.flair-agender-demi:hover:after {
+    content: " Agender Demisexual";
+}  
+span.flair-demi-ainbow:hover:after {
+    content: " Demisexual Rainbow";
+}  
+span.flair-demi-bi:hover:after {
+    content: " Demisexual Bisexual";
+}  
+span.flair-demi-het:hover:after {
+    content: " Demisexual Heterosexual";
+}  
+span.flair-demi-pan:hover:after {
+    content: " Demisexual Pansexual";
+}  
+span.flair-trans-demi-ainbow:hover:after {
+    content: " Trans Demisexual Rainbow";
+}  
+span.flair-trans-demi-bi:hover:after {
+    content: " Trans Demisexual Bisexual";
+}  
+span.flair-trans-demi-het:hover:after {
+    content: " Trans Demisexual Heterosexual";
+}  
+span.flair-trans-demi-pan:hover:after {
+    content: " Trans Demisexual Pansexual";
+}  
+span.flair-genderqueer-demi-ainbow:hover:after {
+    content: " Genderqueer Demisexual Rainbow";
+}  
+span.flair-genderqueer-demi-bi:hover:after {
+    content: " Genderqueer Demisexual Bisexual";
+}  
+span.flair-genderqueer-demi-het:hover:after {
+    content: " Genderqueer Demisexual Heterosexual";
+}  
+span.flair-genderqueer-demi-pan:hover:after {
+    content: " Genderqueer Demisexual Pansexual";
+}  
+span.flair-genderfluid-demi-ainbow:hover:after {
+    content: " Genderfluid Demisexual Rainbow";
+}  
+span.flair-genderfluid-demi-bi:hover:after {
+    content: " Genderfluid Demisexual Bisexual";
+}
+span.flair-genderfluid-demi-het:hover:after {
+    content: " Genderfluid Demisexual Heterosexual";
+}
+span.flair-genderfluid-demi-pan:hover:after {
+    content: " Genderfluid Demisexual Pansexual";
+}
+span.flair-nonbinary-demi-ainbow:hover:after {
+    content: " Nonbinary Demisexual Rainbow";
+}
+span.flair-nonbinary-demi-bi:hover:after {
+    content: " Nonbinary Demisexual Bisexual";
+}
+span.flair-nonbinary-demi-het:hover:after {
+    content: " Nonbinary Demisexual Heterosexual";
+}
+span.flair-nonbinary-demi-pan:hover:after {
+    content: " Nonbinary Demisexual Pansexual";
+}
+span.flair-neutrois-demi-ainbow:hover:after {
+    content: " Neutrois Demisexual Rainbow";
+}
+span.flair-neutrois-demi-bi:hover:after {
+    content: " Neutrois Demisexual Bisexual";
+}
+span.flair-neutrois-demi-het:hover:after {
+    content: " Neutrois Demisexual Heterosexual";
+}
+span.flair-neutrois-demi-pan:hover:after {
+    content: " Neutrois Demisexual Pansexual";
+}
+span.flair-demiboy-demi-ainbow:hover:after {
+    content: " Demiboy Demisexual Rainbow";
+}
+span.flair-demiboy-demi-bi:hover:after {
+    content: " Demiboy Demisexual Bisexual";
+}
+span.flair-demiboy-demi-het:hover:after {
+    content: " Demiboy Demisexual Heterosexual";
+}
+span.flair-demiboy-demi-pan:hover:after {
+    content: " Demiboy Demisexual Pansexual";
+}
+span.flair-demigirl-demi-ainbow:hover:after {
+    content: " Demigirl Demisexual Rainbow";
+}
+span.flair-demigirl-demi-bi:hover:after {
+    content: " Demigirl Demisexual Bisexual";
+}
+span.flair-demigirl-demi-het:hover:after {
+    content: " Demigirl Demisexual Heterosexual";
+}
+span.flair-demigirl-demi-pan:hover:after {
+    content: " Demigirl Demisexual Pansexual";
+}
+span.flair-deminonbinary-demi-ainbow:hover:after {
+    content: " Deminonbinary Demisexual Rainbow";
+}
+span.flair-deminonbinary-demi-pan:hover:after {
+    content: " Deminonbinary Demisexual Pansexual";
+}
+span.flair-deminonbinary-demi-bi:hover:after {
+    content: " Deminonbinary Demisexual Bisexual";
+}
+span.flair-deminonbinary-demi-het:hover:after {
+    content: " Deminonbinary Demisexual Heterosexual";
+}
+span.flair-agender-demi-ainbow:hover:after {
+    content: " Agender Demisexual Rainbow";
+}
+span.flair-agender-demi-pan:hover:after {
+    content: " Agender Demisexual Pansexual";
+}
+span.flair-agender-demi-bi:hover:after {
+    content: " Agender Demisexual Bisexual";
+}
+span.flair-agender-demi-het:hover:after {
+    content: " Agender Demisexual Heterosexual";
+}
+
 /*** End /r/ainbow flair CSS ***/
 
