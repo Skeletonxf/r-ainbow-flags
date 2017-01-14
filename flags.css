@@ -129,6 +129,7 @@ span.flair
    width: auto;
    min-width: 18px;
    voice-family: takei;
+   vertical-align: bottom;
 }
 
 /* over ride some tags for dual flags */
