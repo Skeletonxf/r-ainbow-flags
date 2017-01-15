@@ -130,6 +130,7 @@ span.flair
    min-width: 18px;
    voice-family: takei;
    vertical-align: bottom;
+   line-height: 12px;
 }
 
 /* over ride some tags for dual flags */
