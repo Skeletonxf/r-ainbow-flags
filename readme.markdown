@@ -12,11 +12,16 @@ As of 2016 there are 110 combinations supported.
 Instructions
 ------------
 
+0. Go to http://new.reddit.com/r/yoursubreddit.
+   Go to mod tools -> community tools -> emojis. Enable emojis in this subreddit. Then click add new emoji and navigate to the `/flag-images` folder. Upload each emoji as an image to reddit and give them suitable names like demi, pan, trans, nonbinary, ect. As you add each flair using old.reddit below also include the name you used for these uploaded emojis with two semicolons on each side. This will render the flair image on new reddit, and helpfully provide the names on old reddit. For example if you uploaded the demi.png image and called the emoji demi then when you add the demi flag include :demi: in the default text.
+
+[Reference screenshot](https://github.com/Skeletonxf/r-ainbow-flags/raw/master/emoji-flags.png)
+
 Steps 1-2 will happen on this page:
-http://www.reddit.com/r/yoursubreddit/about/stylesheet
+http://old.reddit.com/r/yoursubreddit/about/stylesheet
 
 Steps 3-5 will happen on this page:
-http://www.reddit.com/r/yoursubreddit/about/flair
+http://old.reddit.com/r/yoursubreddit/about/flair
 
 1. Under the "images" section, upload each of the PNG's in this folder.
    Reddit will suggest a name in the "new image name" box. Keep that
@@ -32,6 +37,9 @@ http://www.reddit.com/r/yoursubreddit/about/flair
    page so people can select their own flags.
 
 Congratulations, you're done!
+
+
+
 
 CSS Class Names
 ---------------
