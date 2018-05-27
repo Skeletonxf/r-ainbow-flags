@@ -38,8 +38,7 @@ http://old.reddit.com/r/yoursubreddit/about/flair
 
 Congratulations, you're done!
 
-
-
+[Reference screeshot](https://github.com/Skeletonxf/r-ainbow-flags/raw/master/flair-page-reference.png)
 
 CSS Class Names
 ---------------
