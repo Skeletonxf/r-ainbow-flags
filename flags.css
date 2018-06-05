@@ -1381,4 +1381,15 @@ their non existent mouse to see the flair content */
       content: " Agender Demisexual Heterosexual";
   }
 }
+
+/*
+ * Make flair selection popup single column instead of 3 
+ * to give space for the now much wider flairs with the emojis
+ * also in each.
+ */
+.flairoptionpane ul {
+  min-width: 100% !important;
+}
+
+
 /*** End /r/ainbow flair CSS ***/
