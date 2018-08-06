@@ -25,6 +25,7 @@ span.flairemoji {
   width: 18px;
   height: 12px;
   cursor: help;
+  font-size: 12px;
 }
 
 /*
@@ -37,7 +38,10 @@ span.flairemoji:hover:after {
   background: #f5f5f5;
   border: 1px solid #ddd;
   padding: 2px;
+  font-size: 12px;
+  margin: 0px;
 }
+
 /*
  * Use a dark background on nightmode for RES
  * TODO: Feedback and testing how this looks
