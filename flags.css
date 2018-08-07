@@ -11,7 +11,7 @@
 /*
  * Make hover text visible as it overflows the flair spans.
  */
-span.flairbase, .flairselector ul, .flairoptionpane {
+span.flairbase, .flairselector ul, .flairoptionpane, .entry {
   overflow: visible;
 }
 
