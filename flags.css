@@ -11,9 +11,23 @@
 /*
  * Make hover text visible as it overflows the flair spans.
  */
-span.flairbase, .flairselector ul, .flairoptionpane, .entry {
+span.flairbase, .flairselector ul, .flairoptionpane {
   overflow: visible;
 }
+
+/*
+ * Entries cannot be overflow: visible because this breaks layout (badly).
+ * Instead create padding with negative margin so visual layout is unaffected
+ * but the hover text is not overflowing the div so doesn't get cut off.
+ */
+.comment .entry {
+  padding-top: 22px;
+  margin-top: -22px;
+}
+.comment .midcol {
+  padding-top: 22px;
+}
+
 
 /*
  * Add spacing around flag images and
