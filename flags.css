@@ -39,7 +39,7 @@ span.flairemoji {
   width: 18px;
   height: 12px;
   cursor: help;
-  font-size: 12px;
+  font-size: 10px
 }
 
 /*
@@ -52,7 +52,7 @@ span.flairemoji:hover:after {
   background: #f5f5f5;
   border: 1px solid #ddd;
   padding: 2px;
-  font-size: 12px;
+  font-size: 10px
   margin: 0px;
 }
 
