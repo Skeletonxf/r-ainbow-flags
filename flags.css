@@ -20,7 +20,7 @@ span.flairbase, .flairselector ul, .flairoptionpane, .flairrichtext {
  * Instead create padding with negative margin so visual layout is unaffected
  * but the hover text is not overflowing the div so doesn't get cut off.
  */
-.comment .entry {
+.entry {
   padding-top: 22px;
   margin-top: -22px;
 }
