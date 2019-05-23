@@ -76,6 +76,10 @@ span.flairemoji[title=":ally:"]:hover:after {
   content: "Ally";
 }
 
+span.flairemoji[title=":aro:"]:hover:after {
+  content: "Aromantic";
+}
+
 span.flairemoji[title=":bi:"]:hover:after {
   content: "Bisexual";
 }

@@ -18,7 +18,7 @@ All CSS has now been rewritten since the fork and this should be considered a se
 
 3. Go to http://old.reddit.com/r/yoursubreddit/about/flair.
    Click on the "User Flair Templates" tab. Add a new row for each flag, check "user can edit?" and fill in the flair text with the name of the emoji putting `:` on each side. Leave the "CSS class" field blank - we no longer need this. The order of the templates does not matter, so choose whatever makes most sense for your subreddit. /r/Demisexuality for instance puts the Demi flag first and then all others alphabetically.
-   [Reference screeshot](https://github.com/Skeletonxf/r-ainbow-flags/raw/master/flair-page-reference.png)
+   [Reference screeshot](https://github.com/Skeletonxf/r-ainbow-flags/raw/master/flair-page-reference.png) (Note: Screenshot is not updated to include the Aromantic flag)  
    As you can see in the screenshot it may also be useful for you to include the most common pairs of flags users in your subreddit might want below the list of individual flags.
 4. Check off the "allow users to assign their own flair" box atop the page so people can select their own flags and create their own combinations of flags.
 
