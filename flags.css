@@ -112,6 +112,10 @@ span.flairemoji[title=":hetero:"]:hover:after {
   content: "Heterosexual";
 }
 
+span.flairemoji[title=":lesbian:"]:hover:after {
+  content: "Lesbian";
+}
+
 span.flairemoji[title=":neutrois:"]:hover:after {
   content: "Neutrois";
 }
