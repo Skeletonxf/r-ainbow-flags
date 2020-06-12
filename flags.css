@@ -88,6 +88,10 @@ span.flairemoji[title=":demi:"]:hover:after {
   content: "Demisexual";
 }
 
+span.flairemoji[title=":demiromantic:"]:hover:after {
+  content: "Demiromantic";
+}
+
 span.flairemoji[title=":demiboy:"]:hover:after {
   content: "Demiboy";
 }
