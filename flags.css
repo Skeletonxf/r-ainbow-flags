@@ -104,6 +104,10 @@ span.flairemoji[title=":deminonbinary:"]:hover:after {
   content: "Deminonbinary";
 }
 
+span.flairemoji[title=":grey:"]:hover:after {
+  content: "Greysexual";
+}
+
 span.flairemoji[title=":genderfluid:"]:hover:after {
   content: "Genderfluid";
 }
