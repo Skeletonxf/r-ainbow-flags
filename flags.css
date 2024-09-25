@@ -144,4 +144,12 @@ span.flairemoji[title=":trans:"]:hover:after {
   content: "Transgender";
 }
 
+span.flairemoji[title=":gay:"]:hover:after {
+  content: "Gay Male";
+}
+
+span.flairemoji[title=":dello:"]:hover:after {
+  content: "Dellosexual";
+}
+
 /*** End /r/ainbow flair CSS ***/
